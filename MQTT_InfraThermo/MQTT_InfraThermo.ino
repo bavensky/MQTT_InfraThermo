@@ -21,8 +21,8 @@ MqttConnector *mqtt;
 
 /* WIFI INFO */
 #ifndef WIFI_SSID
-  #define WIFI_SSID        "tong"
-  #define WIFI_PASSWORD    "man09min"
+  #define WIFI_SSID        "@ESPertAP_001"
+  #define WIFI_PASSWORD    "espertap"
 #endif
 
 #include "_publish.h"
