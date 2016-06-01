@@ -3,8 +3,6 @@
 #include <ESP8266WiFi.h>
 #include <ArduinoJson.h>
 #include <Wire.h>
-#include <Adafruit_MLX90614.h>
-Adafruit_MLX90614 mlx = Adafruit_MLX90614();
 
 MqttConnector *mqtt;
 
@@ -33,7 +31,6 @@ void init_hardware()
 {
   Serial.begin(115200);
   delay(10);
-  mlx.begin();  
   Serial.println();
   Serial.println("Serial port initialized.");
 }
